@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="/surveyStyle.css">
+</head>
+
+<body>
+    <h1>Survey Form</h1>
+    <form action="">
+        <fieldset>
+            <legend>Let us know how we can improve FreeCodeCamp</legend>
+            <div class="labelColumn">
+                <label for="name" class="userLabel">&#8226; Name:</label><br>
+                <label for="email" class="userLabel">&#8226; Email:</label><br>
+                <label for="age" class="userLabel">&#8226; Age:</label><br>
+                <label for="userRole" class="userLabel">Which option best describes your current role?</label><br>
+                <label for="recommend" class="userLabel">&#8226; How likely is that you would recommend FreeCodeCamp to a friend?</label><br>
+                <label class="userLabel" for="FCCLike">What do you like most in FCC?</label><br>
+                <label class="userLabel" for="feedback">&#8226; Things that should be improved in the future (Check all that apply):</label><br>
+            </div>
+
+            <div class="suggestionSection">
+                <label for="suggestions" class="userLabel" class="suggestionFix">Have any suggestions or comments?</label>
+            </div>
+
+            <div class="inputColumn">
+                <input type="text" class="userInput" placeholder="Enter your name"><br>
+                <input type="text" class="userInput" placeholder="Enter your email"><br>
+                <input type="text" class="userInput" placeholder="Enter your age"><br>
+                <select class="userInput" name="userRole">
+                    <option value="" selected disabled hidden>Select-An-Option</option>
+                    <option value="WebDev">Web Developer</option>
+                    <option value="AIML">AI & Machine Learning Specialist</option>
+                    <option value="Cyber">Cyber Security Specialist</option>
+                    <option value="Digi">Digital Marketing</option>
+                    <option value="cloud">Cloud Computing</option>
+                    <option value="Student">Student</option>
+                    <option value="Intern">Intern</option>
+                    <option value="other">Others</option>
+                </select>
+                <br><br>
+                <input class="userInput" type="radio" name="recommend" value="definitely">
+                <label for="definitely" class="userInput">Definitely</label><br>
+                <input class="userInput" type="radio" name="recommend" value="maybe">
+                <label for="maybe" class="userInput">Maybe</label><br>
+                <input class="userInput" type="radio" name="recommend" value="notsure">
+                <label for="notsure" class="userInput">Not sure</label>
+                <br><br>
+                <select name="FCCLike">
+                    <option value="" selected disabled hidden>Select-An-Option</option>
+                    <option value="opensource">It is OpenSource</option>
+                    <option value="quality">Provides high quality lectures</option>
+                    <option value="handnotes">Provides handmade notes and PPTs</option>
+                    <option value="welltrained">Well trained instructor</option>
+                    <option value="community">Community is very helpful</option>
+                </select>
+                <br><br>
+                <input type="checkbox" name="frontend">
+                <label for="frontend">Front-end projects</label><br>
+                <input type="checkbox" name="backend">
+                <label for="backend">Back-end projects</label><br>
+                <input type="checkbox" name="datavisual">
+                <label for="datavisual">Data visualization</label><br>
+                <input type="checkbox" name="challenges">
+                <label for="challenges">Challenges</label><br>
+                <input type="checkbox" name="opencommunity">
+                <label for="opencommunity">Open source community</label><br>
+                <input type="checkbox" name="gitter">
+                <label for="gitter">Gitter help rooms</label><br>
+                <input type="checkbox" name="videos">
+                <label for="videos">Videos</label><br>
+                <input type="checkbox" name="citymeetups">
+                <label for="citymeetups">City Meetups</label><br>
+                <input type="checkbox" name="wiki">
+                <label for="wiki">Wiki</label><br>
+                <input type="checkbox" name="forum">
+                <label for="forum">Forum</label><br>
+                <input type="checkbox" name="additionalCourses">
+                <label for="additionalCourses">Additional Courses</label><br>
+
+                <input class="comment-field" type="text" name="suggestions" placeholder="Enter your comment here...">
+                <br><br>
+
+            </div>
+            <input class="button" type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>

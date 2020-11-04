@@ -1,0 +1,72 @@
+    body {
+        background-color: blueviolet;
+    }
+    
+    h1 {
+        color: white;
+        text-align: center;
+    }
+    
+    legend {
+        margin-bottom: 20px;
+    }
+    
+    form {
+        background-color: yellow;
+        padding: 10px;
+        margin: 10px 210px;
+    }
+    
+    .labelColumn {
+        float: left;
+        margin-left: 120px;
+        margin-top: 30px
+    }
+    
+    .inputColumn {
+        margin-left: 500px;
+        margin-top: 30px;
+    }
+    
+    .userLabel {
+        float: left;
+        width: 200px;
+        padding-left: 80px;
+        margin-bottom: 21px;
+    }
+    
+    .userInput {
+        margin: 4px;
+        padding-right: 10px;
+    }
+    
+    input {
+        height: 20px;
+        margin-bottom: 15px;
+    }
+    
+    select {
+        height: 27px;
+        width: 150px;
+    }
+    
+    .suggestionSection {
+        position: absolute;
+        margin-top: 47rem;
+        padding-left: 7.5rem;
+    }
+    
+    .comment-field {
+        height: 50px;
+        width: 200px;
+    }
+    
+    .button {
+        font-size: large;
+        width: 80px;
+        height: 45px;
+        border-radius: 10%;
+        background-color: blue;
+        color: white;
+        margin-left: 450px;
+    }
